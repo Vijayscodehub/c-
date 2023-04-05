@@ -17,3 +17,14 @@ int main()
     cout<< c <<"\n";
     
 }
+/*int main()
+{
+    int a = 5;
+    int b,c;
+    
+    b = a--;
+    c = --a;
+    cout<< b <<"\n";
+    cout<< c <<"\n";
+    
+}*/
