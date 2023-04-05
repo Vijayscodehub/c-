@@ -9,8 +9,11 @@ using namespace std;
 int main()
 {
     int a = 5;
-    a++ ;
-    //++a;
-    cout<< a;
+    int b,c;
+    
+    b = a++ ;
+    c = ++a;
+    cout<< b <<"\n";
+    cout<< c <<"\n";
     
 }
