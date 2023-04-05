@@ -1,6 +1,16 @@
-# comments in c++
+// comments in c++
 /*
 this is a multiline comment
 */
-// this is a single line comment
+//this is a single line comment
 
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 5;
+    a++ ;
+    //++a;
+    cout<< a;
+    
+}
