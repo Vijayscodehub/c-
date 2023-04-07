@@ -1,13 +1,53 @@
-// bitwise and,or, xor,compliment
+/*// bitwise and,or, xor,compliment
 
 #include <iostream>
 using namespace std;
 int main()
 {
-    int a =10;
-    int b = 5;
+    int a =15;
+    int b = 7;
     int c;
-    c = a|b; // just change signs to &,^,~,
+    c = a^b;  // just change signs to &,^,~,
     cout << c <<"\n";
+    
+}
+
+// bitwise compliment (not)
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a =8;
+    int b = ~a;
+
+    cout << b<<"\n";
+    
+}
+
+
+//bitwise left shift
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a =55;
+    int b = a<<1; // indireclty represent multiplying the number by 2
+
+    cout << b<<"\n";
+    
+}*/
+
+//bitwise right shift
+
+ 
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a =55;
+    int b = a>>1; // indireclty represent multiplying the number by 2
+
+    cout << b<<"\n";
     
 }
