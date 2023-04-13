@@ -1,0 +1,22 @@
+// Fibonacci series example
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int f,s,nt,n;
+    cout<<"Please Enter the limit"<<endl;
+    cin>>n;
+    f = 0; // first defining the first and second number so that the next term nt can be calculated based on the previous numbers
+    s = 1;
+    
+    cout<<"the Fibonacci series is " <<f<< ","<<s<<",";// here the comma to make the nt one after the other with comma 
+    nt = f+s;
+    while (nt<=n) // limit set for nt to be less than the user defined number
+    {
+        cout<<nt<<",";// here the comma to make the nt one after the other with comma 
+        f = s; // this three lines are the adding logic
+        s = nt;
+        nt = f+s;
+    }
+}
