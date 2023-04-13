@@ -1,0 +1,14 @@
+// Loops
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,n;
+    cout<<"Please enter a ending number"<<endl;
+    cin>>n;
+    for (i =1;i <= n; i++)
+    {
+        cout<< i << "\n";
+    }
+    
+}
