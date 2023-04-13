@@ -1,0 +1,17 @@
+// do while loop
+#include <iostream>
+using namespace std;
+int main()
+{
+     int i,n;
+     cout<<"Please enter a number"<<endl;
+     cin>>n;
+    i = 1;
+    do
+    {
+        cout<<i<<endl; // irrespective of the condition the first execution will take place
+    }
+   
+    while(i<=n);
+    
+}
